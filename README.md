@@ -1,55 +1,101 @@
-# Pequeno Chatbot Especialista
+Pequeno Chatbot Especialista
+Contexto do Projeto
 
-## Contexto do Projeto
+Este projeto foi criado como parte dos meus estudos em Análise e Desenvolvimento de Sistemas. A proposta é desenvolver um chatbot simples em Python, capaz de responder perguntas básicas sobre tecnologia, programação e carreira na área tech.
 
-Este projeto foi criado como parte dos meus estudos em Análise e Desenvolvimento de Sistemas. A ideia é desenvolver um chatbot simples em Python, capaz de responder perguntas básicas sobre tecnologia, programação e carreira na área tech.
+O projeto também tem como objetivo praticar a organização de um repositório no GitHub, utilizando uma documentação clara e bem estruturada para apresentar o funcionamento da solução.
 
-O projeto também serve como prática para organizar um repositório no GitHub de forma mais profissional, usando documentação clara e objetiva.
+Objetivo
 
-## Objetivo
+O objetivo principal do projeto é praticar conceitos iniciais de programação, como entrada de dados, estruturas condicionais, repetição e interação com o usuário.
 
-O objetivo deste projeto é praticar conceitos fundamentais de programação, como entrada de dados, estruturas condicionais, repetição e interação com o usuário.
+Além disso, o projeto busca demonstrar minha evolução no aprendizado de Python, Lógica de Programação, GitHub e documentação técnica.
 
-Além disso, o chatbot ajuda a demonstrar minha evolução no aprendizado de Python, Lógica de Programação e organização de projetos no GitHub.
+Visão Geral
 
-## Visão Geral
+O chatbot funciona por meio de perguntas digitadas pelo usuário no terminal. A partir das palavras-chave identificadas na pergunta, o sistema retorna uma resposta relacionada ao tema.
 
-O chatbot funciona a partir de perguntas digitadas pelo usuário. Ele identifica palavras-chave nas perguntas e retorna respostas relacionadas ao tema.
+Atualmente, o chatbot responde sobre assuntos como:
 
-Atualmente, o chatbot pode responder sobre assuntos como:
+Python
+Lógica de Programação
+GitHub
+HTML
+CSS
+JavaScript
+Inteligência Artificial
+Carreira em tecnologia
 
-- Python
-- Lógica de Programação
-- GitHub
-- HTML
-- CSS
-- JavaScript
-- Inteligência Artificial
-- Carreira em tecnologia
+Arquitetura da Solução
 
-## Arquitetura da Solução
+A solução foi desenvolvida de forma simples, utilizando apenas a linguagem Python.
 
-A solução foi construída de forma simples, utilizando Python.
+O funcionamento acontece da seguinte forma:
 
-O funcionamento segue este fluxo:
+O programa exibe uma mensagem inicial para o usuário.
+O usuário digita uma pergunta sobre tecnologia.
+O chatbot analisa se existem palavras-chave na pergunta.
+Caso encontre uma palavra-chave conhecida, ele mostra uma resposta pronta.
+Se não reconhecer o assunto, ele informa que ainda não possui uma resposta específica.
+O programa continua funcionando até o usuário digitar sair.
 
-1. O programa exibe uma mensagem inicial.
-2. O usuário digita uma pergunta.
-3. O chatbot analisa palavras-chave no texto.
-4. O sistema retorna uma resposta pré-definida.
-5. O usuário pode continuar perguntando ou digitar `sair` para encerrar.
+Essa estrutura foi escolhida por ser simples, didática e adequada para quem está começando a estudar programação.
 
-## Como Usar
+Como Usar
 
-1. Tenha o Python instalado no computador.
-2. Baixe ou clone este repositório.
-3. Abra o terminal na pasta do projeto.
-4. Execute o comando: python chatbot.py
-5. Digite uma pergunta sobre tecnologia.
-6. Para encerrar, digite: sair
+Para utilizar o projeto, é necessário ter o Python instalado no computador.
 
-## Exemplo de Uso
+Depois, basta seguir os passos:
+
+Baixar ou clonar este repositório.
+Abrir a pasta do projeto no computador.
+Executar o arquivo chatbot.py.
+Digitar uma pergunta sobre tecnologia.
+Para encerrar o chatbot, digitar sair.
+
+Exemplo de comando para executar:
+
+python chatbot.py
+
+Exemplo de Execução
 
 Você: o que é Python?
 
 Chatbot: Python é uma linguagem de programação simples e muito usada em automação, inteligência artificial, análise de dados e desenvolvimento web.
+
+Você: o que é GitHub?
+
+Chatbot: GitHub é uma plataforma usada para armazenar projetos, controlar versões do código e montar um portfólio profissional.
+
+Você: sair
+
+Chatbot: Obrigado por conversar comigo. Até mais!
+
+Tecnologias Utilizadas
+
+Python
+Lógica de Programação
+GitHub
+Markdown
+
+Desafios Superados
+
+Durante o desenvolvimento do projeto, um dos principais desafios foi organizar a lógica do chatbot de forma simples e compreensível.
+
+Também foi necessário pensar em como identificar palavras-chave nas perguntas do usuário e retornar respostas coerentes com cada tema.
+
+Outro desafio importante foi estruturar o README.md de forma profissional, explicando o projeto de maneira clara para quem acessar o repositório no GitHub.
+
+Melhorias Futuras
+
+No futuro, o projeto pode ser melhorado com novas funcionalidades, como:
+
+Adicionar mais perguntas e respostas.
+Criar uma interface gráfica.
+Melhorar o reconhecimento das perguntas.
+Adicionar integração com Inteligência Artificial.
+Salvar o histórico das conversas.
+
+Autor
+
+Desenvolvido por Arthur da Silva Rodrigues, estudante de Análise e Desenvolvimento de Sistemas na UDF.
